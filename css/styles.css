@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+#header {
+    height: 100vh;
+    background-image: url(../img/header_background.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#header h1 {
+    color: aquamarine;
+    margin: 0;
+    padding-left: 27%;
+    padding-right: 27%;
+    font-size: 45px;
+}
+
+#main {
+    padding-left: 27%;
+    padding-right: 27%;
+}
+
+#main p {
+    font-size: 20px;
+}
+
+main h1 {
+    padding: 1%;
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    #header h1 {
+        padding: 1%;
+    }
+    #main {
+        padding-left: 27%;
+        padding-right: 27%;
+    }
+    #main p {
+        font-size: 15px;
+    }
+    main h1 {
+        font-size: 35px;
+    }
+}
